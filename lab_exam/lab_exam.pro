@@ -4,4 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-    arrays.cpp
+    arrays.cpp \
+    misc.cpp \
+    tui.cpp \
+    fileio.cpp \
+    inheritance.cpp
+
+LIBS    += -lncurses
