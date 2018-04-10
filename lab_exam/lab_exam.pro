@@ -8,6 +8,7 @@ SOURCES += \
     misc.cpp \
     tui.cpp \
     fileio.cpp \
-    inheritance.cpp
+    inheritance.cpp \
+    pointers.cpp
 
 LIBS    += -lncurses

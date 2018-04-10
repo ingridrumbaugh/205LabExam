@@ -47,11 +47,13 @@ class FileIO {
         else
             cout << "Input terminated for unknown reason. \n";
         // Standard file-reading loop design
-        inFile >> value; // Get first value
+
+        // inFile >> value; // Get first value
 
         while (inFile.good()) { //while input good and not at EOF
             // loop body goes here
-            inFile >> value; // get next
+
+            // inFile >> value; // get next
         }
     }
 
