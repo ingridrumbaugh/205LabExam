@@ -9,6 +9,7 @@ SOURCES += \
     tui.cpp \
     fileio.cpp \
     inheritance.cpp \
-    pointers.cpp
+    pointers.cpp \
+    overloadoperators.cpp
 
 LIBS    += -lncurses
