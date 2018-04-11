@@ -10,6 +10,10 @@ SOURCES += \
     fileio.cpp \
     inheritance.cpp \
     pointers.cpp \
-    overloadoperators.cpp
+    overloadoperators.cpp \
+    copyconstructors.cpp \
+    templates.cpp \
+    stlgenericsalgorithms.cpp \
+    polymorphism.cpp
 
 LIBS    += -lncurses
