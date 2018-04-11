@@ -14,6 +14,7 @@ SOURCES += \
     copyconstructors.cpp \
     templates.cpp \
     stlgenericsalgorithms.cpp \
-    polymorphism.cpp
+    polymorphism.cpp \
+    references.cpp
 
 LIBS    += -lncurses
